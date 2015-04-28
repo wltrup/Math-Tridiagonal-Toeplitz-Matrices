@@ -1,4 +1,4 @@
-# Tridiagonal Toeplitz and Tridiagonal _near-_Toeplitz Matrices
+# Tridiagonal Toeplitz and Tridiagonal _near_-Toeplitz Matrices
 
 Last year I got interested in a particular kind of one-dimensional problem involving multiple point masses oscillating as if they were connected by springs. The problem of finding the normal modes of such a system reduces to diagonalizing a matrix of a special form, known as a [_Tridiagonal Toeplitz_](http://de.wikipedia.org/wiki/Tridiagonal-Toeplitz-Matrix) matrix. Not content with just looking up their eigenvalues, I decided to prove the result myself.
 
@@ -8,7 +8,7 @@ To my knowledge, this is an original result.
 
 ![](matrices.png)
 
-The matrix on the left is a _pure_ tridiagonal Toeplitz matrix. The one on the right is a tridiagonal _nearly-_Toeplitz matrix. Note the change from **a** to **w** in position (1,1).
+The matrix on the left is a _pure_ tridiagonal Toeplitz matrix. The one on the right is a tridiagonal _nearly_-Toeplitz matrix. Note the change from **a** to **w** in position (1,1).
 
 Originally written on April 6, 2014 and January 30, 2015.
 
